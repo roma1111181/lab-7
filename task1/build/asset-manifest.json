@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/lab-7/task1/build/static/js/main.d7f8b2d0.js",
+    "main.js": "/lab-7/task1/build/static/js/main.34f591a6.js",
     "index.html": "/lab-7/task1/build/index.html",
-    "main.d7f8b2d0.js.map": "/lab-7/task1/build/static/js/main.d7f8b2d0.js.map"
+    "main.34f591a6.js.map": "/lab-7/task1/build/static/js/main.34f591a6.js.map"
   },
   "entrypoints": [
-    "static/js/main.d7f8b2d0.js"
+    "static/js/main.34f591a6.js"
   ]
 }

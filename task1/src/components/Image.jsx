@@ -3,19 +3,19 @@ import React, { useState } from 'react';
 function Image() {
 
   const [imageSize, setImageSize] = useState(400);
-  const [displayStyle, setDisplayStyle] = useState({display: 'block'});
+  const [displayStyle, setDisplayStyle] = useState({display: 'inline-block'});
 
   const remove = () => {
     setDisplayStyle({display: 'none'});
   };
 
   const add = () =>  {
-    if (displayStyle['display'] === 'block') {
+    if (displayStyle['display'] === 'inline-block') {
       alert("Немає сенсу додавати картинку, вона вже існує")
   }
   else {
     setImageSize(400);
-    setDisplayStyle({display: 'block'});
+    setDisplayStyle({display: 'inline-block'});
   }
   };
 
@@ -23,7 +23,7 @@ function Image() {
     if (imageSize > 100) {
       setImageSize(imageSize - 100);
     }
-    else if (displayStyle['display'] === 'block') {
+    else if (displayStyle['display'] === 'inline-block') {
       alert('Досягнуто мінімального розміру зображення')
   }
   };
@@ -32,7 +32,7 @@ function Image() {
     if (imageSize < 700) {
       setImageSize(imageSize + 100);
     }
-    else if (displayStyle['display'] === 'block') {
+    else if (displayStyle['display'] === 'inline-block') {
       alert('Досягнуто максимального розміру зображення')
   }
   };
