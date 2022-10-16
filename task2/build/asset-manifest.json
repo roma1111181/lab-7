@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lab-7/task2/build/static/css/main.f5f41048.css",
+    "main.js": "/lab-7/task2/build/static/js/main.71f16c56.js",
+    "index.html": "/lab-7/task2/build/index.html",
+    "main.f5f41048.css.map": "/lab-7/task2/build/static/css/main.f5f41048.css.map",
+    "main.71f16c56.js.map": "/lab-7/task2/build/static/js/main.71f16c56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5f41048.css",
+    "static/js/main.71f16c56.js"
+  ]
+}

@@ -1,0 +1,2 @@
+body{text-align:center}.container{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center}img{height:12vw;width:16vw}.product{border-radius:10px;box-shadow:2px 2px 2px grey,-2px -2px 2px grey;margin:10px;padding:15px;transition:-webkit-transform .25s ease-in-out;transition:transform .25s ease-in-out;transition:transform .25s ease-in-out,-webkit-transform .25s ease-in-out;width:16vw}.product:hover{-webkit-transform:scale(1.03);transform:scale(1.03)}
+/*# sourceMappingURL=main.f5f41048.css.map*/
